@@ -130,3 +130,14 @@ function menucustomer()
     }
     return $result;
 }
+
+function menubarang()
+{
+    if (userMenu() == 'barang') {
+        $result = 'active';
+    } else {
+        $result = null;
+    }
+    return $result;
+}
+

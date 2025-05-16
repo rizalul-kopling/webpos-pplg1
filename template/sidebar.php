@@ -43,17 +43,17 @@
                             <li class="nav-item">
                                 <a href="<?= $main_url; ?>supplier/data-supplier.php" class="nav-link <?= menuSupplier() ?>">
                                     <i class="far fa-circle nav-icon"></i>
-                                    <p>supplier</p>
+                                    <p>Supplier</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="<?= $main_url ?>customer/data-customer.php" class="nav-link <?=menucustomer() ?>">
+                                <a href="<?= $main_url ?>customer/data-customer.php" class="nav-link <?= menuCustomer() ?>">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Customer</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link">
+                                <a href="<?= $main_url; ?>barang/form-barang.php" class="nav-link <?= menuBarang() ?>"> 
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Barang</p>
                                 </a>
